@@ -1,6 +1,6 @@
 package zadania.agregacjaikompozycja.zadaniedwa;
 
-public class OnlineShop {
+class OnlineShop {
     public static void main(String[] args) {
         Address address = new Address("Wrocław","33-333","Jakaś",1,2);
         Seller seller1 = new Seller("Jan","Kowalski",address);

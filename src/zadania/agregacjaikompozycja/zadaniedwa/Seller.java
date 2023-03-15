@@ -1,6 +1,6 @@
 package zadania.agregacjaikompozycja.zadaniedwa;
 
-public class Seller {
+class Seller {
     String firstName;
     String lastName;
     Address address;

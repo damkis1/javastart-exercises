@@ -1,6 +1,6 @@
 package zadania.agregacjaikompozycja.zadaniejeden;
 
-public class Address {
+class Address {
     String street;
     int houseNumber;
     int apartmentNumber;

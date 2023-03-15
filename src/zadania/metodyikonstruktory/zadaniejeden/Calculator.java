@@ -1,6 +1,6 @@
-package zadania.metody.zadaniejeden;
+package zadania.metodyikonstruktory.zadaniejeden;
 
-public class Calculator {
+class Calculator {
     double add(double a, double b){
         return a + b;
     }

@@ -1,6 +1,6 @@
-package zadania.metody.zadaniedwa;
+package zadania.metodyikonstruktory.zadaniedwa;
 
-public class TimeUnits {
+class TimeUnits {
     int hoursToMinutes(int hours){
         return hours * 60;
     }

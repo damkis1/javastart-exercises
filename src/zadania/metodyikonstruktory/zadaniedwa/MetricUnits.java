@@ -1,6 +1,6 @@
-package zadania.metody.zadaniedwa;
+package zadania.metodyikonstruktory.zadaniedwa;
 
-public class MetricUnits {
+class MetricUnits {
     double metersToCentimeters(double metres){
         return metres * 100;
     }

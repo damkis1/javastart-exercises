@@ -13,7 +13,7 @@ import java.util.Scanner;
 //Przypisz do zmiennych przykładowe wartości, a następnie oblicz i wyświetl kwotę netto,
 // wysokość podatku VAT dla tego produktu, oraz kwotę brutto do zapłaty za towar.
 // Możesz definiować w programie dowolne dodatkowe zmienne, jeżeli uznasz to za pomocne.
-public class Main {
+class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj nazwe produktu");

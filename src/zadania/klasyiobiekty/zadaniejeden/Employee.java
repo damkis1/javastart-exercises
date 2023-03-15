@@ -1,6 +1,6 @@
 package zadania.klasyiobiekty.zadaniejeden;
 
-public class Employee {
+class Employee {
     private String firstName;
     private String lastName;
     private int yearOfBirth;

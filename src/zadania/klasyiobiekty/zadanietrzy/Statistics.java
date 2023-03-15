@@ -10,7 +10,7 @@ package zadania.klasyiobiekty.zadanietrzy;
 //dzienne zużycie wody przez wszystkie rośliny,
 //tygodniowe zużycie wody,
 //roczne zużycie wody (365 dni).
-public class Statistics {
+class Statistics {
     public static void main(String[] args) {
         Plant plant1 = new Plant("Kaktus","Mało pije wody, ładny jest",0.2);
         Plant plant2 = new Plant("Róża","Na dole róże na górze bez",2.5);

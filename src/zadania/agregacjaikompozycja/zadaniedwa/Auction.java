@@ -1,6 +1,6 @@
 package zadania.agregacjaikompozycja.zadaniedwa;
 
-public class Auction {
+class Auction {
     String title;
     String description;
     double price;

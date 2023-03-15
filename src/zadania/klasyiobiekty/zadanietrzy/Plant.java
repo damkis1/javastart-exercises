@@ -1,6 +1,6 @@
 package zadania.klasyiobiekty.zadanietrzy;
 
-public class Plant {
+class Plant {
     private String name;
     private String description;
     private double waterADay;

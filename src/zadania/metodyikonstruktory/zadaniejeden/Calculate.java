@@ -1,4 +1,4 @@
-package zadania.metody.zadaniejeden;
+package zadania.metodyikonstruktory.zadaniejeden;
 //Napisz program-kalkulator operujący na liczbach zmiennoprzecinkowych typu double ,
 // który będzie składał się z dwóch klas w osobnych plikach:
 //
@@ -9,7 +9,7 @@ package zadania.metody.zadaniejeden;
 // utwórz obiekt klasy Calculator i za jego pomocą oblicz wynik różnych działań matematycznych.
 //Wszystkie wyniki działań wyświetl na ekranie.
 
-public class Calculate {
+class Calculate {
     public static void main(String[] args) {
         double a = 12.45;
         double b = 22.44;

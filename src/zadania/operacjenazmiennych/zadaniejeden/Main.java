@@ -11,7 +11,7 @@ import java.util.Random;
 //3.Czy y jest mniejsze od sumy x+3 i jednocześnie większe od x pomniejszonego o 2?
 //4.Czy iloczyn liczb x i y jest parzysty? (Wykorzystaj do sprawdzenia operację modulo)
 //Wynik każdego zdania logicznego przypisuj przed wypisaniem do zmiennej typu boolean o nazwie result.
-public class Main {
+class Main {
     public static void main(String[] args) {
         Random random = new Random();
         int x = random.nextInt(101);

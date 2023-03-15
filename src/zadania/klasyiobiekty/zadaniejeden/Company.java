@@ -1,6 +1,6 @@
 package zadania.klasyiobiekty.zadaniejeden;
 
-public class Company {
+class Company {
     //Napisz program, w którym utworzysz dwie klasy:
     //
     //Employee - klasa, która będzie przedstawiała pracownika dowolnej firmy.

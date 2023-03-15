@@ -1,4 +1,4 @@
-package zadania.metody.zadaniedwa;
+package zadania.metodyikonstruktory.zadaniedwa;
 //Stwórz aplikację, która będzie służyła do przeliczania jednostek.
 // Zdefiniuj klasę, która będzie posiadała metody do przeliczania jednostek metrycznych:
 //
@@ -18,7 +18,7 @@ package zadania.metody.zadaniedwa;
 //
 //Korzystając ze zdefiniowanych metod przelicz np. 14 godzin na milisekundy.
 
-public class Converter {
+class Converter {
     public static void main(String[] args) {
         MetricUnits metricUnits = new MetricUnits();
         System.out.println(metricUnits.metersToCentimeters(24.5));
