@@ -14,8 +14,8 @@ import java.util.Scanner;
 //wykorzystaj strukturę switch i w niej wywołaj odpowiednią metodę klasy PointController,
 //wyświetl zmienione współrzędne punktu.
 public class PointApplication {
-    private static Scanner scanner = new Scanner(System.in);
-    private static PointController pointController = new PointController();
+    private static final Scanner scanner = new Scanner(System.in);
+    private static final PointController pointController = new PointController();
 
     public static void main(String[] args) {
         Point point = new Point(5, 5);

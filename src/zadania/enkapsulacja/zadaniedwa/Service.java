@@ -6,7 +6,7 @@ public class Service {
     private Ticket ticket;
 
 
-    public void asd(Movie movie, Spectator spectator) {
+    public void ticketSalesValidation(Movie movie, Spectator spectator) {
         if (movie.getFreeSeats() == 0) {
             System.out.println("Brak wolnych miejsc na seans");
         } else if (spectator.getAge() < movie.getAgeRequired()) {
