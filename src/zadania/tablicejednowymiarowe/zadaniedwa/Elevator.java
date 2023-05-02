@@ -7,30 +7,6 @@ class Elevator {
     int peopleNumber = 0;
     private final int maxWeight = 400;
 
-    public static void main(String[] args) {
-        Person person = new Person(1, 300);
-        Person person1 = new Person(2, 50);
-
-        Elevator elevator = new Elevator();
-        elevator.add(person);
-        elevator.add(person1);
-        elevator.add(person1);
-
-        elevator.showPeople();
-
-        elevator.start();
-
-        elevator.clear();
-
-        elevator.showPeople();
-
-        elevator.add(person);
-        elevator.add(person1);
-
-        elevator.showPeople();
-        elevator.start();
-
-    }
 
 
     public void add(Person person){
@@ -50,7 +26,7 @@ class Elevator {
         int sumWeight = 0;
         for (Person person : peopleElevator) {
             if (person == null)
-                continue;
+                break;
             sumWeight += person.getWeight();
         }
         return sumWeight;
