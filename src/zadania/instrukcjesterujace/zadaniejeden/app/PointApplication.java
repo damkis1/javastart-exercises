@@ -4,15 +4,6 @@ import zadania.instrukcjesterujace.zadaniejeden.controller.PointController;
 import zadania.instrukcjesterujace.zadaniejeden.data.Point;
 
 import java.util.Scanner;
-
-//Ćwiczenie
-//W zadaniu wykorzystaj projekt z poprzedniego zadania (Specyfikatory dostępu i JavaBeans).
-// W klasie PointApplication dodaj proste sterowanie, które pozwoli na zmianę wartości współrzędnych punktu w zależności od wybranej opcji.
-//
-//Stwórz dowolny punkt,
-//zdefiniuj kilka możliwych opcji wyboru. Np. wartość 0 oznacza przesunięcie punktu o 1 w lewo, 1 przesunięcie punktu o 1 w prawo itd.
-//wykorzystaj strukturę switch i w niej wywołaj odpowiednią metodę klasy PointController,
-//wyświetl zmienione współrzędne punktu.
 public class PointApplication {
     private static final Scanner scanner = new Scanner(System.in);
     private static final PointController pointController = new PointController();

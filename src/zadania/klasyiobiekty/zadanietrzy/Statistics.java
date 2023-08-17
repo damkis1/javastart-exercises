@@ -1,15 +1,4 @@
 package zadania.klasyiobiekty.zadanietrzy;
-
-//Projektujemy aplikację do automatycznego podlewania naszego ogródka.
-//
-//Pierwszą rzeczą, która będzie nam potrzebna jest klasa reprezentująca pojedynczą roślinę.
-// Każda roślina ma swoją nazwę, opis oraz informację o dziennym zapotrzebowaniu na wodę (np. 1litr, albo 0.2 litra itp.).
-//
-//W osobnej klasie stwórz kilka obiektów reprezentujących rośliny (co najmniej 3) i wyświetl na ekranie następujące statystyki:
-//
-//dzienne zużycie wody przez wszystkie rośliny,
-//tygodniowe zużycie wody,
-//roczne zużycie wody (365 dni).
 class Statistics {
     public static void main(String[] args) {
         Plant plant1 = new Plant("Kaktus","Mało pije wody, ładny jest",0.2);

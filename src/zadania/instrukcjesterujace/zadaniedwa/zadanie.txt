@@ -1,0 +1,10 @@
+Napisz program, w którym zostanie wylosowana liczba całkowita z przedziału od 0 do 9999.
+Następnie wyświetl kilka informacji na temat tej liczby:
+czy jest mniejsza od 5000, równa 5000, czy większa od 5000,
+czy jest parzysta, czy nieparzysta.
+Dodatkowo zdefiniuj metodę, do której przekażesz tę liczbę, a w wyniku zwrócisz liczbę zgodną z poniższym opisem:
+
+jeżeli przekazana liczba składa się co najmniej z czterech cyfr, to zwracamy tę liczbę w wyniku,
+jeżeli przekazana liczba to 0, to zwracamy wartość 0.jeżeli przekazana liczba ma mniej niż cztery cyfry i jest różna od zera, to uzupełniamy ją zerami.
+Przykładowo dla liczby 123 zwrócimy 1230, a dla liczby 12 zwrócimy 1200.
+Wynik metody również wyświetl w konsoli.
