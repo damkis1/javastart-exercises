@@ -1,6 +1,6 @@
-package zadania.polimorfizmrzutowanietypow.zadaniedwa;
+package zadania.polimorfizmrzutowanietypow.zadaniedwa.model;
 
-class Defender extends Figure {
+public class Defender extends Figure {
     private double defenceBonus;
 
     public Defender(String name, double attack, double defence, double lifeEnergy, double defenceBonus) {

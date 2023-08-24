@@ -1,6 +1,6 @@
-package zadania.polimorfizmrzutowanietypow.zadaniedwa;
+package zadania.polimorfizmrzutowanietypow.zadaniedwa.model;
 
-class Attacker extends Figure {
+public class Attacker extends Figure {
     private double attackBonus;
 
     public Attacker(String name, double attack, double defence, double lifeEnergy, double attackBonus) {

@@ -1,6 +1,6 @@
-package zadania.polimorfizmrzutowanietypow.zadaniedwa;
+package zadania.polimorfizmrzutowanietypow.zadaniedwa.model;
 
-class Figure {
+public class Figure {
     private String name;
     private double attack;
     private double defence;
