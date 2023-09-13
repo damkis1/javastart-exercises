@@ -1,0 +1,10 @@
+Ćwiczenie
+Napisz program, który będzie symulował rzut kostką. Po jego uruchomieniu powinien wyświetlić się tekst
+"Wciśnij Enter, aby rzucić kostką". Po wciśnięciu entera w konsoli powinna wyświetlić się kostka z losową liczbą oczek.
+Kostka powinna wyglądać w sposób zbliżony do tej przedstawionej poniżej.
+
+             - - - - -
+            |         |
+            |    0    |
+            |         |
+             - - - - -

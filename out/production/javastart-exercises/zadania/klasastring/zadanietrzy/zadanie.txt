@@ -1,0 +1,5 @@
+Napisz program, który będzie symulował pasek postępu np. podczas wczytywania dużego pliku. Założenia to:
+
+postęp powinien rosnąc o 0,5% co każde 200 milisekund,
+wraz ze wzrostem postępu co 200 milisekund symbol postępu powinien zmieniać się z '\' na '/',
+co każde 10% powinien pojawić się dodatkowy symbol sygnalizujący postęp (maksymalnie 10 znaków).
